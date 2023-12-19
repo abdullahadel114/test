@@ -6,6 +6,6 @@ jobs:
  hello:
 runs-on: ubontu-latest
 steps:
-uses: actions/checkout@v1
- name : print hello
-run : echo "hello seif" 
+- uses: actions/checkout@v1
+- name : print hello
+  run : echo "hello seif" 
