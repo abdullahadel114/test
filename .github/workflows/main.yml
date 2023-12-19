@@ -3,9 +3,9 @@ name: hello
 
 on: push 
 jobs:
- hello:
-runs-on: ubontu-latest
-steps:
-- uses: actions/checkout@v1
-- name : print hello
-  run : echo "hello seif" 
+ Explore-GitHub-Actions:
+  runs-on: ubuntu-latest
+  steps:
+     - uses: actions/checkout@v1
+     - name : print hello
+      run : echo "hello seif" 
